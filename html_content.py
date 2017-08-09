@@ -10,7 +10,6 @@ import re
 import os
 import HTMLParser
 import tools
-import dic_statistics
 
 class HtmlContent:
     #按行分析的深度，默认为6

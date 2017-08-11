@@ -21,7 +21,6 @@
 ##Ext-Additional
 0x1e00-0x1ef9  # ?-?
 
-
 [zh]
 #Chinese
 0x3400-0x9FA5
@@ -30,9 +29,8 @@
 0x002d
 0x2018-0x2019  #‘’
 
-
-[en|in|ms]
-###English|Indonesian|Malay(BasicLatin)
+[en|en_us|in|ms|tl]
+###English|English(US)|Indonesian|Malay|Tagalog(BasicLatin)
 #Basic punct.
 0x0027
 0x002d
@@ -41,8 +39,8 @@
 0x0041-0x005a
 0x0061-0x007a
 
-[fr|es|pt|de|it|pt_br|es_la]
-###French|Spanish|Portuguese|German|Italian(Latin1)
+[fr|fr-ca|es|pt|de|it|pt_br|es_la|ca|da|fi|nl|no|sv]
+###French|French-Canada|Spanish|Portuguese|German|Italian|Portuguese(Brazil)|Spanish_la|Catalan|Danish|Finnish|Dutch|Norwegian|Swedish(Latin1)
 #Basic punct.
 0x0027
 0x002d
@@ -53,8 +51,8 @@
 #Latin 1
 0x00c0-0x00ff
 
-[pl|tr|lv]
-###Polish|Turkish|Latvian(Ext-A)
+[pl|tr|lv|cs|hu|hr|lt|sl|sk]
+###Polish|Turkish|Latvian|Czech|Hungarian|Croatian|Lithuanian|Slovenian|Slovak(Ext-A)
 #Basic punct.
 0x0027
 0x002d
@@ -108,17 +106,25 @@
 0x0600-0x06FF
 0x0750-0x077F
 0x08A0-0x08FF
+0x200C
+0x200D
 
-
-[ru|uk]
-###Russian|Ukrainian(Cyrillic):
+[ru|bg|sr]
+###Russian|Bulgarian|Serbian(Cyrillic+Supplement):
 0x0400-0x04FF
+0x0500-0x052F
 #Basic punct.
 0x0027
 0x002d
 0x2018-0x2019  #‘’
 
-
+[uk]
+###Ukrainian(Cyrillic):
+0x0400-0x04FF
+#Basic punct.
+0x0027
+0x002d
+0x2018-0x2019  #‘’
 
 [th]
 ###Thai:
@@ -127,14 +133,15 @@
 0x0027
 0x002d
 
-[hi]
-###Hindi(Devanagary):
-0x0900-0x0963
-0x0966-0x097F
+[hi|sa]
+###Hindi|Sanskrit(Devanagari+Ext):
+0x0900-0x097F
+0xA8E0-0xA8FF
 #Basic punct.
 0x0027
 0x002d
-
+0x200C
+0x200D
 
 [ta]
 ###Tamil
@@ -148,10 +155,10 @@
 ###Bengali|Assamese:
 0x0980-0x09FF
 #Basic punct.
+0x0027
 0x002D
 0x200C
 0x200D
-
 
 [my]
 ###Myanmar:
@@ -160,6 +167,9 @@
 0xA9E0-0xA9FF
 ###Myanmar Extended A:
 0xAA60-0xAA7F
+#Basic punct.
+0x0027
+0x002D
 
 [ml]
 ###Malayalam：
@@ -180,7 +190,7 @@
 0x200D
 
 [gu]
-###Gujarati
+###Gujarati(Gujarati)
 0x0A80-0x0AFF
 #Basic punct.
 0x0027
@@ -189,10 +199,55 @@
 0x200D
 
 [te]
-###Telugu
+###Telugu(Telugu)
 0x0C00-0x0C7F
 #Basic punct.
 0x0027
 0x002d
 0x200C
 0x200D
+
+[or]
+###Odia(Odia)
+0x0B00-0x0B7F
+#Basic punct.
+0x0027
+0x002d
+
+[pa]
+###Punjabi(Gurmukhi)
+0x0A00-0x0A7F
+#Basic punct.
+0x0027
+0x002d
+
+[km]
+###Khmer(Khmer)
+0x1780-0x17FF
+0xAA60-0xAA7F
+#Basic punct.
+0x0027
+0x002d
+0x200C
+0x200D
+
+[el]
+###Greek
+0x0370-0x03FF
+#Basic punct.
+0x0027
+0x002d
+
+[heb]
+###Hebrew
+0x05D0-0x05F2
+#Basic punct.
+0x0027
+0x002d
+
+[ka]
+###Geogian
+0x10A0-0x10FF
+#Basic punct.
+0x0027
+0x002d
